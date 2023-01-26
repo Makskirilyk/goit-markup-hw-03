@@ -269,6 +269,8 @@ padding: 0px;
 
 .list-item {
   margin-bottom: 48px;
+  border: 1px solid #E7E9FC;
+
 }
 .list-position :not(first-child) {
   margin-left: 24px;
