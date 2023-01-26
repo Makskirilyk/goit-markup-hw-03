@@ -44,6 +44,9 @@ body {
   margin-left: auto;
   margin-right: 171px;
 }
+.section{
+  border:var(--main-color);
+}
 /* Логотип */
 .page-header{
   width: 1158px;
