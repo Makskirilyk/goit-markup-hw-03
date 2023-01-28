@@ -217,12 +217,14 @@ body {
 /* Головна */
 .hero {
   width: 1440px;
-  height: 600px;
+
   background-color: var(--link-color);
   text-align: center;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
+
   font-size: 56px;
   line-height: 1;
   letter-spacing: 0.02em;
