@@ -41,13 +41,12 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
+
 .conteiner-first-section {
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -57,36 +56,33 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 69px;
 }
 .conteiner-last-section {
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 171px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 120px;
 }
 .conteiner-title {
-  width: 356px;
   border-right: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-top: 32px;
 }
 .conteiner-filter {
   margin-left: auto;
   margin-right: auto;
   width: 1128px;
-  padding-top: 96px;
-  padding-bottom: 120px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
 /* Логотип */
 .page-header {
-  width: 1158px;
+  width: 1440px;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
@@ -215,13 +211,17 @@ body {
   background: var(--accent-color);
 }
 /* Головна */
+.page-hero{
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-color: var(--link-color);
+}
 .hero {
   width: 1440px;
 
-  background-color: var(--link-color);
+
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+
 }
 .hero-title {
 
@@ -233,6 +233,22 @@ body {
   margin: 0px auto;
   text-align: center;
   width: 496px;
+}
+.page-first-section{
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.page-section{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.page-last-section{
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.page-filter{
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 /* Текст */
 .title {
@@ -261,8 +277,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   margin: 0px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  
 }
 .suptitle-position {
   font-size: 16px;
@@ -284,8 +299,6 @@ body {
   line-height: 1.25;
   letter-spacing: 0.02em;
 
-  padding-left: 16px;
-  padding-top: 32px;
   margin: 0px;
 }
 .title-last-section {
@@ -297,7 +310,6 @@ body {
 
   margin: 0px;
   text-align: center;
-  padding-top: 120px;
 }
 .list-photo-item {
   display: flex;
@@ -306,7 +318,7 @@ body {
   column-gap: 24px;
 }
 .list-position-last-section {
-  padding-top: 72px;
+  margin-top: 72px;
   column-gap: 24px;
 }
 .footer-subtitle {
@@ -362,16 +374,17 @@ border-radius: 0px 0px 4px 4px;
 .menu-list .menu-item + .menu-item {
   margin-left: 40px;
 }
-footer {
-  background-color: var(--link-color);
+.footer-section{
+    background-color: var(--link-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer{
-
-  width: 264px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
-  padding-right: 102px;
+width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logotype-footer{
   font-weight: 800;
@@ -384,5 +397,5 @@ footer {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
