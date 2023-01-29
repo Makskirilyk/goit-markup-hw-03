@@ -32,7 +32,7 @@ body {
   color: var(--link-color);
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+
 }
 .conteiner {
   display: flex;
@@ -82,7 +82,7 @@ body {
 
 /* Логотип */
 .page-header {
-  width: 1440px;
+
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
@@ -215,16 +215,13 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--link-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero {
-  width: 1440px;
-
-
   text-align: center;
-
 }
 .hero-title {
-
   font-size: 56px;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -240,10 +237,10 @@ body {
 }
 .page-section{
 padding-top: 60px;
-padding-bottom: 60px;
+padding-bottom: 120px;
 }
 .page-last-section{
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .page-filter{
